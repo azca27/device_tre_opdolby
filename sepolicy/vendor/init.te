@@ -6,3 +6,5 @@ allow init vendor_file:file execute;
 allowxperm init per_boot_file:file ioctl { F2FS_IOC_SET_PIN_FILE };
 
 allow init sysfs:file { setattr };
+
+allow init adsprpcd_file:file mounton;

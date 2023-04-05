@@ -11,6 +11,7 @@ debug.cpurend.vsync=false
 
 # Display
 ro.sf.force_hwc_brightness=1
+debug.hwui.renderer=skiagl
 
 # Incremental FS
 ro.incremental.enable=yes
